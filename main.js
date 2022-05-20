@@ -74,7 +74,7 @@ class Blockchain{
   console.log('Mining block 2...');
   horusCoin.addBlock(new Block(2, "14/07/2021",{ amount: 10 }));
   
-  //console.log('Is this blockchain valid? ' + horusCoin.isChainValid()); 
+  console.log('Is this blockchain valid? ' + horusCoin.isChainValid()); 
   //horusCoin.chain[1].data = { ammount: 100 }
   //horusCoin.chain[1].hash = horusCoin.chain[1].calculateHash();
   //console.log(JSON.stringfy(horusCoin, null, 4)); 
