@@ -1,4 +1,4 @@
-//terminal --> npm install --save --crypto-js (Library --> node module)
+terminal --> npm install --save --crypto-js (Library --> node module)
 
 const SHA256 = require('crypto-js/sha256');
 
